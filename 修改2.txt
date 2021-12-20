@@ -1,0 +1,953 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇨🇦 IPV6 加拿大 B01, server: 2600:1f11:f6f:2300:a5fc:9814:a17e:5485, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇦 中国-加拿大 IPLC B01, server: ca01.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇦 中国-加拿大 IPLC B02, server: ca02.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇦 中国-加拿大 IPLC B03, server: ca03.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇦 中国-加拿大 IPLC B04, server: ca04.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇨🇦 中国-加拿大 IPLC B05, server: ca05.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇦🇺 中国-澳大利亚 IPLC 悉尼 B01, server: au01.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇦🇺 中国-澳大利亚 IPLC 悉尼 B02, server: au02.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇦🇺 中国-澳大利亚 IPLC 悉尼 B03, server: au03.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇦🇺 中国-澳大利亚 IPLC 悉尼 B04, server: au04.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇦🇺 中国-澳大利亚 IPLC 悉尼 B05, server: au05.yootoo6oocoo1oo.xyz, port: 7617, type: ssr, cipher: rc4-md5, password: Aasdjk, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 🇷🇺 IPV6 俄罗斯 B01, server: 2a00:b700:2::6:30d, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 IPV6 日本 B01, server: 2001:e42:102:1513:160:16:74:189, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B01, server: tw01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B02, server: tw02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B03, server: tw03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B04, server: tw04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B05, server: tw05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B06, server: tw06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B07, server: tw07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B08, server: tw08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾IEPL B09, server: tw09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B01 游戏专线Netflix 动画疯, server: twgame01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B02 游戏专线Netflix 动画疯, server: twgame02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B03 游戏专线Netflix 动画疯, server: twgame03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B04 游戏专线Netflix 动画疯, server: twgame04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B05 游戏专线Netflix 动画疯, server: twgame05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B06 游戏专线Netflix 动画疯, server: twgame06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B07 游戏专线Netflix 动画疯, server: twgame07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B08 游戏专线Netflix 动画疯, server: twgame08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾嘉义 IPLC B09 游戏专线Netflix 动画疯, server: twgame09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B01 Netflix 动画疯, server: twct01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B02 Netflix 动画疯, server: twct02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B03 Netflix 动画疯, server: twct03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B04 Netflix 动画疯, server: twct04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B05 Netflix 动画疯, server: twct05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B06 Netflix 动画疯, server: twct06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B07 Netflix 动画疯, server: twct07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B08 Netflix 动画疯, server: twct08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇨🇳 台湾高雄 IPLC B09 Netflix 动画疯, server: twct09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B1 1000Mbps, server: hr01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B2 1000Mbps, server: hr02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B3 1000Mbps, server: hr03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B4 1000Mbps, server: hr04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B6 1000Mbps, server: hr06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B7 1000Mbps, server: hr07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B8 1000Mbps, server: hr08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B9 1000Mbps, server: hr09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B01 Netflix, server: hr11.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B02 Netflix, server: hr12.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B03 Netflix, server: hr13.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B04 Netflix, server: hr14.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B05 Netflix, server: hr15.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B06 Netflix, server: hr16.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B07 Netflix, server: hr17.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B08 Netflix, server: hr18.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B09 Netflix, server: hr19.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 沪日IEPL传输 B10 Netflix, server: hr10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇬🇧 英国伦敦电信 IEPL B01, server: uk01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇬🇧 英国伦敦电信 IEPL B02, server: uk02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇬🇧 英国伦敦电信 IEPL B03, server: uk03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇬🇧 英国伦敦电信 IEPL B04, server: uk04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B01 Netflix, server: kr01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B02 Netflix, server: kr02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B03 Netflix, server: kr03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B04 Netflix, server: kr04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B05 Netflix, server: kr05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B06 Netflix, server: kr06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B07 Netflix, server: kr07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B08 Netflix, server: kr08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B09 Netflix, server: kr09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 IPLC B10 Netflix, server: kr10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 01 Netflix 原生游戏解锁, server: krgame01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 02 Netflix 原生游戏解锁, server: krgame02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 03 Netflix 原生游戏解锁, server: krgame03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 04 Netflix 原生游戏解锁, server: krgame04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 05 Netflix 原生游戏解锁, server: krgame05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 06 Netflix 原生游戏解锁, server: krgame06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 07 Netflix 原生游戏解锁, server: krgame07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 08 Netflix 原生游戏解锁, server: krgame08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 09 Netflix 原生游戏解锁, server: krgame09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国首尔 游戏IEPL B 10 Netflix 原生游戏解锁, server: krgame10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 01 1Gbps Netflix HBO TVB, server: sg01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 02 1Gbps Netflix HBO TVB, server: sg02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 03 1Gbps Netflix HBO TVB, server: sg03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 04 1Gbps Netflix HBO TVB, server: sg04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 05 1Gbps Netflix HBO TVB, server: sg05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 06 1Gbps Netflix HBO TVB, server: sg06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 07 1Gbps Netflix HBO TVB, server: sg07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 08 1Gbps Netflix HBO TVB, server: sg08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 09 1Gbps Netflix HBO TVB, server: sg09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: "🇭🇰 香港 10 1Gbps Netflix HBO TVB\t", server: sg10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 B01 Netflix, server: sgp01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 B02 Netflix, server: sgp02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 B03 Netflix, server: sgp03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 B04 Netflix, server: sgp04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 B05 Netflix, server: sgp05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 Magic IEPL 中继 B01 Netflix, server: sgp06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 Magic IEPL 中继 B02 Netflix, server: sgp07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 Magic IEPL 中继 B03 Netflix, server: sgp08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 Magic IEPL 中继 B04 Netflix, server: sgp09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡 Magic IEPL 中继 B05 Netflix, server: sgp10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡高级 IEPL 中继 B01 Netflix, server: sgp11.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇸🇬 新加坡高级 IEPL 中继 B02 Netflix, server: sgp12.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B01 500Mbps 1x Netflix, server: jp06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B02 500Mbps 1x Netflix, server: jp07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B03 500Mbps 1x Netflix, server: jp08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B04 500Mbps 1x Netflix, server: jp09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B05 500Mbps 1x Netflix, server: jp10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 01, server: jp01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 02, server: jp02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 03, server: jp03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 04, server: jp04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 06, server: jp27.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 07, server: jp28.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 08, server: jp29.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 09, server: jp30.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 10, server: jp31.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 11, server: jp32.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 12, server: jp22.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 13, server: jp23.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 14, server: jp24.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 15, server: jp25.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本 B 16, server: jp26.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 01, server: jp14.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 02, server: jp15.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 03, server: jp16.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 04, server: jp17.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 05, server: jp18.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 06, server: jp19.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇯🇵 日本大阪 B 07, server: jp20.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 港区 B01, server: hg01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 港区 B02, server: hg02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 港区 B03, server: hg03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 港区 B04, server: hg04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 港区 B05, server: hg05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 游戏 中港 IPLC B01, server: hkgame01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 游戏 中港 IPLC B02, server: hkgame02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 游戏 中港 IPLC B03, server: hkgame03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 游戏 中港 IPLC B04, server: hkgame04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 游戏 中港 IPLC B05, server: hkgame05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 游戏 中港 IPLC B06, server: hkgame06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国实验性 IEPL 中继 B01, server: us06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国实验性 IEPL 中继 B02, server: us07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国实验性 IEPL 中继 B03, server: us08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国实验性 IEPL 中继 B04, server: us09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国实验性 IEPL 中继 B05, server: us10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国高级 IEPL 中继 B01, server: us01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国高级 IEPL 中继 B02, server: us02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国高级 IEPL 中继 B03, server: us03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国高级 IEPL 中继 B04, server: us04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇺🇸 美国高级 IEPL 中继 B05, server: us05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 B01, server: hkaia01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 01, server: krsk01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 02, server: krsk02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 03, server: krsk03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 04, server: krsk04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 05, server: krsk05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 06, server: krsk06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 07, server: krsk07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 08, server: krsk08.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 09, server: krsk09.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇰🇷 韩国 B 10, server: krsk10.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B01, server: hkt01.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B02, server: hkt02.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B03, server: hkt03.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B04, server: hkt04.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B05, server: hkt05.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B06, server: hkt06.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+  - {name: 🇭🇰 香港 油尖旺 B07, server: hkt07.yootoo6oocoo1oo.xyz, port: 7617, type: ss, cipher: rc4-md5, password: Aasdjk}
+proxy-groups:
+
+
+
+
+  - name: 香港
+    type: select
+    proxies:
+      - 🇭🇰 香港 01 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 02 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 03 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 04 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 05 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 06 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 07 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 08 1Gbps Netflix HBO TVB
+      - 🇭🇰 香港 09 1Gbps Netflix HBO TVB
+      - "🇭🇰 香港 10 1Gbps Netflix HBO TVB\t"
+      - 🇭🇰 香港 油尖旺 B01
+      - 🇭🇰 香港 油尖旺 B02
+      - 🇭🇰 香港 油尖旺 B03
+      - 🇭🇰 香港 油尖旺 B04
+      - 🇭🇰 香港 油尖旺 B05
+      - 🇭🇰 香港 油尖旺 B06
+      - 🇭🇰 香港 油尖旺 B07
+      - 🇭🇰 港区 B01
+      - 🇭🇰 港区 B02
+      - 🇭🇰 港区 B03
+      - 🇭🇰 港区 B04
+      - 🇭🇰 港区 B05
+      - 🇭🇰 游戏 中港 IPLC B01
+      - 🇭🇰 游戏 中港 IPLC B02
+      - 🇭🇰 游戏 中港 IPLC B03
+      - 🇭🇰 游戏 中港 IPLC B04
+      - 🇭🇰 游戏 中港 IPLC B05
+      - 🇭🇰 游戏 中港 IPLC B06
+      - 🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 B01
+
+
+
+
+
+  - name: 谷歌
+    type: select
+    proxies:
+      - 香港
+      - 美国
+      - 台湾
+      - 其他
+
+
+
+  - name: 节点选择
+    type: select
+    proxies:
+      - 香港
+      - DIRECT
+      - 美国
+      - 台湾
+      - 其他
+
+
+
+  - name: Netflix
+    type: select
+    proxies:
+      - 新加坡
+      - 台湾
+      - 节点选择
+
+
+
+  - name: 苹果策略
+    type: select
+    proxies:
+      - DIRECT
+      - 美国
+      - 香港
+      - 节点选择
+
+
+
+
+  - name: 电报策略
+    type: select
+    proxies:
+      - 香港
+      - 新加坡
+      - 节点选择
+
+
+
+
+
+  - name: 新加坡
+    type: select
+    proxies:
+      - 🇸🇬 新加坡 B01 Netflix
+      - 🇸🇬 新加坡 B02 Netflix
+      - 🇸🇬 新加坡 B03 Netflix
+      - 🇸🇬 新加坡 B04 Netflix
+      - 🇸🇬 新加坡 B05 Netflix
+      - 🇸🇬 新加坡 Magic IEPL 中继 B01 Netflix
+      - 🇸🇬 新加坡 Magic IEPL 中继 B02 Netflix
+      - 🇸🇬 新加坡 Magic IEPL 中继 B03 Netflix
+      - 🇸🇬 新加坡 Magic IEPL 中继 B04 Netflix
+      - 🇸🇬 新加坡 Magic IEPL 中继 B05 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 B01 Netflix
+      - 🇸🇬 新加坡高级 IEPL 中继 B02 Netflix
+
+
+
+  - name: 美国
+    type: select
+    proxies:
+      - 🇺🇸 美国实验性 IEPL 中继 B01
+      - 🇺🇸 美国实验性 IEPL 中继 B02
+      - 🇺🇸 美国实验性 IEPL 中继 B03
+      - 🇺🇸 美国实验性 IEPL 中继 B04
+      - 🇺🇸 美国实验性 IEPL 中继 B05
+      - 🇺🇸 美国高级 IEPL 中继 B01
+      - 🇺🇸 美国高级 IEPL 中继 B02
+      - 🇺🇸 美国高级 IEPL 中继 B03
+      - 🇺🇸 美国高级 IEPL 中继 B04
+      - 🇺🇸 美国高级 IEPL 中继 B05
+
+
+
+
+
+
+  - name: 台湾
+    type: select
+    proxies:
+      - 🇨🇳 台湾IEPL B01
+      - 🇨🇳 台湾IEPL B02
+      - 🇨🇳 台湾IEPL B03
+      - 🇨🇳 台湾IEPL B04
+      - 🇨🇳 台湾IEPL B05
+      - 🇨🇳 台湾IEPL B06
+      - 🇨🇳 台湾IEPL B07
+      - 🇨🇳 台湾IEPL B08
+      - 🇨🇳 台湾IEPL B09
+      - 🇨🇳 台湾嘉义 IPLC B01 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B02 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B03 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B04 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B05 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B06 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B07 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B08 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾嘉义 IPLC B09 游戏专线Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B01 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B02 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B03 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B04 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B05 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B06 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B07 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B08 Netflix 动画疯
+      - 🇨🇳 台湾高雄 IPLC B09 Netflix 动画疯
+
+
+  - name: 其他
+    type: select
+    proxies:
+      - 🇨🇦 IPV6 加拿大 B01
+      - 🇨🇦 中国-加拿大 IPLC B01
+      - 🇨🇦 中国-加拿大 IPLC B02
+      - 🇨🇦 中国-加拿大 IPLC B03
+      - 🇨🇦 中国-加拿大 IPLC B04
+      - 🇨🇦 中国-加拿大 IPLC B05
+      - 🇦🇺 中国-澳大利亚 IPLC 悉尼 B01
+      - 🇦🇺 中国-澳大利亚 IPLC 悉尼 B02
+      - 🇦🇺 中国-澳大利亚 IPLC 悉尼 B03
+      - 🇦🇺 中国-澳大利亚 IPLC 悉尼 B04
+      - 🇦🇺 中国-澳大利亚 IPLC 悉尼 B05
+      - 🇷🇺 IPV6 俄罗斯 B01
+      - 🇬🇧 英国伦敦电信 IEPL B01
+      - 🇬🇧 英国伦敦电信 IEPL B02
+      - 🇬🇧 英国伦敦电信 IEPL B03
+      - 🇬🇧 英国伦敦电信 IEPL B04
+      - 🇯🇵 IPV6 日本 B01
+      - 🇯🇵 日本 B1 1000Mbps
+      - 🇯🇵 日本 B2 1000Mbps
+      - 🇯🇵 日本 B3 1000Mbps
+      - 🇯🇵 日本 B4 1000Mbps
+      - 🇯🇵 日本 B6 1000Mbps
+      - 🇯🇵 日本 B7 1000Mbps
+      - 🇯🇵 日本 B8 1000Mbps
+      - 🇯🇵 日本 B9 1000Mbps
+      - 🇯🇵 日本 沪日IEPL传输 B01 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B02 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B03 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B04 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B05 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B06 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B07 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B08 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B09 Netflix
+      - 🇯🇵 日本 沪日IEPL传输 B10 Netflix
+      - 🇯🇵 日本 B01 500Mbps 1x Netflix
+      - 🇯🇵 日本 B02 500Mbps 1x Netflix
+      - 🇯🇵 日本 B03 500Mbps 1x Netflix
+      - 🇯🇵 日本 B04 500Mbps 1x Netflix
+      - 🇯🇵 日本 B05 500Mbps 1x Netflix
+      - 🇯🇵 日本 B 01
+      - 🇯🇵 日本 B 02
+      - 🇯🇵 日本 B 03
+      - 🇯🇵 日本 B 04
+      - 🇯🇵 日本 B 06
+      - 🇯🇵 日本 B 07
+      - 🇯🇵 日本 B 08
+      - 🇯🇵 日本 B 09
+      - 🇯🇵 日本 B 10
+      - 🇯🇵 日本 B 11
+      - 🇯🇵 日本 B 12
+      - 🇯🇵 日本 B 13
+      - 🇯🇵 日本 B 14
+      - 🇯🇵 日本 B 15
+      - 🇯🇵 日本 B 16
+      - 🇯🇵 日本大阪 B 01
+      - 🇯🇵 日本大阪 B 02
+      - 🇯🇵 日本大阪 B 03
+      - 🇯🇵 日本大阪 B 04
+      - 🇯🇵 日本大阪 B 05
+      - 🇯🇵 日本大阪 B 06
+      - 🇯🇵 日本大阪 B 07
+      - 🇰🇷 韩国 IPLC B01 Netflix
+      - 🇰🇷 韩国 IPLC B02 Netflix
+      - 🇰🇷 韩国 IPLC B03 Netflix
+      - 🇰🇷 韩国 IPLC B04 Netflix
+      - 🇰🇷 韩国 IPLC B05 Netflix
+      - 🇰🇷 韩国 IPLC B06 Netflix
+      - 🇰🇷 韩国 IPLC B07 Netflix
+      - 🇰🇷 韩国 IPLC B08 Netflix
+      - 🇰🇷 韩国 IPLC B09 Netflix
+      - 🇰🇷 韩国 IPLC B10 Netflix
+      - 🇰🇷 韩国首尔 游戏IEPL B 01 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 02 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 03 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 04 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 05 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 06 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 07 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 08 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 09 Netflix 原生游戏解锁
+      - 🇰🇷 韩国首尔 游戏IEPL B 10 Netflix 原生游戏解锁
+      - 🇰🇷 韩国 B 01
+      - 🇰🇷 韩国 B 02
+      - 🇰🇷 韩国 B 03
+      - 🇰🇷 韩国 B 04
+      - 🇰🇷 韩国 B 05
+      - 🇰🇷 韩国 B 06
+      - 🇰🇷 韩国 B 07
+      - 🇰🇷 韩国 B 08
+      - 🇰🇷 韩国 B 09
+      - 🇰🇷 韩国 B 10
+
+
+
+
+
+rules:
+
+
+ - DOMAIN-SUFFIX,netflix.com,Netflix
+ - DOMAIN-SUFFIX,netflix.net,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest0.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest1.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest2.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest3.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest4.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest5.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
+ - DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
+ - DOMAIN-SUFFIX,nflxext.com,Netflix
+ - DOMAIN-SUFFIX,nflximg.com,Netflix
+ - DOMAIN-SUFFIX,nflximg.net,Netflix
+ - DOMAIN-SUFFIX,nflxso.net,Netflix
+ - DOMAIN-SUFFIX,nflxvideo.net,Netflix
+
+
+
+
+ - DOMAIN,api.steampowered.com,节点选择
+
+
+
+
+
+ - DOMAIN-KEYWORD,gmail,谷歌
+ - DOMAIN-KEYWORD,google,谷歌
+ - DOMAIN-SUFFIX,googleapis.cn,谷歌
+ - DOMAIN-SUFFIX,googleapis.com,谷歌
+ - DOMAIN,alt1-mtalk.google.com,谷歌
+ - DOMAIN,alt2-mtalk.google.com,谷歌
+ - DOMAIN,alt3-mtalk.google.com,谷歌
+ - DOMAIN,alt4-mtalk.google.com,谷歌
+ - DOMAIN,alt5-mtalk.google.com,谷歌
+ - DOMAIN,alt6-mtalk.google.com,谷歌
+ - DOMAIN,alt7-mtalk.google.com,谷歌
+ - DOMAIN,alt8-mtalk.google.com,谷歌
+ - DOMAIN,mtalk.google.com,谷歌
+ - IP-CIDR,64.233.177.188/32,谷歌,no-resolve
+ - IP-CIDR,64.233.186.188/32,谷歌,no-resolve
+ - IP-CIDR,64.233.187.188/32,谷歌,no-resolve
+ - IP-CIDR,64.233.188.188/32,谷歌,no-resolve
+ - IP-CIDR,64.233.189.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.23.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.24.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.28.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.127.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.137.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.203.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.204.188/32,谷歌,no-resolve
+ - IP-CIDR,74.125.206.188/32,谷歌,no-resolve
+ - IP-CIDR,108.177.125.188/32,谷歌,no-resolve
+ - IP-CIDR,142.250.4.188/32,谷歌,no-resolve
+ - IP-CIDR,142.250.10.188/32,谷歌,no-resolve
+ - IP-CIDR,142.250.31.188/32,谷歌,no-resolve
+ - IP-CIDR,142.250.96.188/32,谷歌,no-resolve
+ - IP-CIDR,172.217.194.188/32,谷歌,no-resolve
+ - IP-CIDR,172.217.218.188/32,谷歌,no-resolve
+ - IP-CIDR,172.217.219.188/32,谷歌,no-resolve
+ - IP-CIDR,172.253.63.188/32,谷歌,no-resolve
+ - IP-CIDR,172.253.122.188/32,谷歌,no-resolve
+ - IP-CIDR,173.194.175.188/32,谷歌,no-resolve
+ - IP-CIDR,173.194.218.188/32,谷歌,no-resolve
+ - IP-CIDR,209.85.233.188/32,谷歌,no-resolve
+
+
+
+
+
+
+
+
+ - DOMAIN,apple.comscoreresearch.com,苹果策略
+ - DOMAIN-SUFFIX,aaplimg.com,苹果策略
+ - DOMAIN-SUFFIX,akadns.net,苹果策略
+ - DOMAIN-SUFFIX,apple-cloudkit.com,苹果策略
+ - DOMAIN-SUFFIX,apple.co,苹果策略
+ - DOMAIN-SUFFIX,apple.com,苹果策略
+ - DOMAIN-SUFFIX,apple.com.cn,苹果策略
+ - DOMAIN-SUFFIX,apple.news,苹果策略
+ - DOMAIN-SUFFIX,appstore.com,苹果策略
+ - DOMAIN-SUFFIX,cdn-apple.com,苹果策略
+ - DOMAIN-SUFFIX,crashlytics.com,苹果策略
+ - DOMAIN-SUFFIX,icloud-content.com,苹果策略
+ - DOMAIN-SUFFIX,icloud.com,苹果策略
+ - DOMAIN-SUFFIX,icloud.com.cn,苹果策略
+ - DOMAIN-SUFFIX,itunes.com,苹果策略
+ - DOMAIN-SUFFIX,me.com,苹果策略
+ - DOMAIN-SUFFIX,mzstatic.com,苹果策略
+ - IP-CIDR,17.0.0.0/8,苹果策略,no-resolve
+ - IP-CIDR,63.92.224.0/19,苹果策略,no-resolve
+ - IP-CIDR,65.199.22.0/23,苹果策略,no-resolve
+ - IP-CIDR,139.178.128.0/18,苹果策略,no-resolve
+ - IP-CIDR,144.178.0.0/19,苹果策略,no-resolve
+ - IP-CIDR,144.178.36.0/22,苹果策略,no-resolve
+ - IP-CIDR,144.178.48.0/20,苹果策略,no-resolve
+ - IP-CIDR,192.35.50.0/24,苹果策略,no-resolve
+ - IP-CIDR,198.183.17.0/24,苹果策略,no-resolve
+ - IP-CIDR,205.180.175.0/24,苹果策略,no-resolve
+
+
+
+ - DOMAIN-SUFFIX,t.me,电报策略
+ - DOMAIN-SUFFIX,tdesktop.com,电报策略
+ - DOMAIN-SUFFIX,telegra.ph,电报策略
+ - DOMAIN-SUFFIX,telegram.me,电报策略
+ - DOMAIN-SUFFIX,telegram.org,电报策略
+ - DOMAIN-SUFFIX,telesco.pe,电报策略
+ - IP-CIDR,91.108.0.0/16,电报策略,no-resolve
+ - IP-CIDR,109.239.140.0/24,电报策略,no-resolve
+ - IP-CIDR,149.154.160.0/20,电报策略,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,电报策略,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,电报策略,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,电报策略,no-resolve
+
+
+
+ - DOMAIN-SUFFIX,1password.com,节点选择
+ - DOMAIN-SUFFIX,adguard.org,节点选择
+ - DOMAIN-SUFFIX,bit.no.com,节点选择
+ - DOMAIN-SUFFIX,btlibrary.me,节点选择
+ - DOMAIN-SUFFIX,cccat.io,节点选择
+ - DOMAIN-SUFFIX,cloudcone.com,节点选择
+ - DOMAIN-SUFFIX,dubox.com,节点选择
+ - DOMAIN-SUFFIX,gameloft.com,节点选择
+ - DOMAIN-SUFFIX,garena.com,节点选择
+ - DOMAIN-SUFFIX,inoreader.com,节点选择
+ - DOMAIN-SUFFIX,ip138.com,节点选择
+ - DOMAIN-SUFFIX,ping.pe,节点选择
+ - DOMAIN-SUFFIX,reddit.com,节点选择
+ - DOMAIN-SUFFIX,teddysun.com,节点选择
+ - DOMAIN-SUFFIX,tumbex.com,节点选择
+ - DOMAIN-SUFFIX,twdvd.com,节点选择
+ - DOMAIN-SUFFIX,unsplash.com,节点选择
+ - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,节点选择
+ - DOMAIN-SUFFIX,yunpanjingling.com,节点选择
+ - DOMAIN-SUFFIX,eu,节点选择
+ - DOMAIN-SUFFIX,hk,节点选择
+ - DOMAIN-SUFFIX,jp,节点选择
+ - DOMAIN-SUFFIX,kr,节点选择
+ - DOMAIN-SUFFIX,sg,节点选择
+ - DOMAIN-SUFFIX,tw,节点选择
+ - DOMAIN-SUFFIX,uk,节点选择
+ - DOMAIN-SUFFIX,us,节点选择
+ - DOMAIN-KEYWORD,1e100,节点选择
+ - DOMAIN-KEYWORD,abema,节点选择
+ - DOMAIN-KEYWORD,appledaily,节点选择
+ - DOMAIN-KEYWORD,avtb,节点选择
+ - DOMAIN-KEYWORD,beetalk,节点选择
+ - DOMAIN-KEYWORD,blogspot,节点选择
+ - DOMAIN-KEYWORD,dropbox,节点选择
+ - DOMAIN-KEYWORD,facebook,节点选择
+ - DOMAIN-KEYWORD,fbcdn,节点选择
+ - DOMAIN-KEYWORD,github,节点选择
+ - DOMAIN-KEYWORD,instagram,节点选择
+ - DOMAIN-KEYWORD,porn,节点选择
+ - DOMAIN-KEYWORD,sci-hub,节点选择
+ - DOMAIN-KEYWORD,spotify,节点选择
+ - DOMAIN-KEYWORD,telegram,节点选择
+ - DOMAIN-KEYWORD,twitter,节点选择
+ - DOMAIN-KEYWORD,whatsapp,节点选择
+ - DOMAIN-KEYWORD,youtube,节点选择
+ - DOMAIN-SUFFIX,4sqi.net,节点选择
+ - DOMAIN-SUFFIX,a248.e.akamai.net,节点选择
+ - DOMAIN-SUFFIX,adobedtm.com,节点选择
+ - DOMAIN-SUFFIX,ampproject.org,节点选择
+ - DOMAIN-SUFFIX,android.com,节点选择
+ - DOMAIN-SUFFIX,aolcdn.com,节点选择
+ - DOMAIN-SUFFIX,apkmirror.com,节点选择
+ - DOMAIN-SUFFIX,apkpure.com,节点选择
+ - DOMAIN-SUFFIX,app-measurement.com,节点选择
+ - DOMAIN-SUFFIX,appspot.com,节点选择
+ - DOMAIN-SUFFIX,archive.org,节点选择
+ - DOMAIN-SUFFIX,armorgames.com,节点选择
+ - DOMAIN-SUFFIX,aspnetcdn.com,节点选择
+ - DOMAIN-SUFFIX,awsstatic.com,节点选择
+ - DOMAIN-SUFFIX,azureedge.net,节点选择
+ - DOMAIN-SUFFIX,azurewebsites.net,节点选择
+ - DOMAIN-SUFFIX,bandwagonhost.com,节点选择
+ - DOMAIN-SUFFIX,bkrtx.com,节点选择
+ - DOMAIN-SUFFIX,blogcdn.com,节点选择
+ - DOMAIN-SUFFIX,blogger.com,节点选择
+ - DOMAIN-SUFFIX,blogsmithmedia.com,节点选择
+ - DOMAIN-SUFFIX,blogspot.com,节点选择
+ - DOMAIN-SUFFIX,blogspot.hk,节点选择
+ - DOMAIN-SUFFIX,blogspot.jp,节点选择
+ - DOMAIN-SUFFIX,bloomberg.cn,节点选择
+ - DOMAIN-SUFFIX,bloomberg.com,节点选择
+ - DOMAIN-SUFFIX,box.com,节点选择
+ - DOMAIN-SUFFIX,cachefly.net,节点选择
+ - DOMAIN-SUFFIX,cdnst.net,节点选择
+ - DOMAIN-SUFFIX,cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,comodoca.com,节点选择
+ - DOMAIN-SUFFIX,daum.net,节点选择
+ - DOMAIN-SUFFIX,demdex.net,节点选择
+ - DOMAIN-SUFFIX,deskconnect.com,节点选择
+ - DOMAIN-SUFFIX,disqus.com,节点选择
+ - DOMAIN-SUFFIX,disquscdn.com,节点选择
+ - DOMAIN-SUFFIX,dropbox.com,节点选择
+ - DOMAIN-SUFFIX,dropboxapi.com,节点选择
+ - DOMAIN-SUFFIX,dropboxstatic.com,节点选择
+ - DOMAIN-SUFFIX,dropboxusercontent.com,节点选择
+ - DOMAIN-SUFFIX,duckduckgo.com,节点选择
+ - DOMAIN-SUFFIX,edgecastcdn.net,节点选择
+ - DOMAIN-SUFFIX,edgekey.net,节点选择
+ - DOMAIN-SUFFIX,edgesuite.net,节点选择
+ - DOMAIN-SUFFIX,eurekavpt.com,节点选择
+ - DOMAIN-SUFFIX,fastmail.com,节点选择
+ - DOMAIN-SUFFIX,firebaseio.com,节点选择
+ - DOMAIN-SUFFIX,flickr.com,节点选择
+ - DOMAIN-SUFFIX,flipboard.com,节点选择
+ - DOMAIN-SUFFIX,gfx.ms,节点选择
+ - DOMAIN-SUFFIX,gongm.in,节点选择
+ - DOMAIN-SUFFIX,hulu.com,节点选择
+ - DOMAIN-SUFFIX,id.heroku.com,节点选择
+ - DOMAIN-SUFFIX,io.io,节点选择
+ - DOMAIN-SUFFIX,issuu.com,节点选择
+ - DOMAIN-SUFFIX,ixquick.com,节点选择
+ - DOMAIN-SUFFIX,jtvnw.net,节点选择
+ - DOMAIN-SUFFIX,kat.cr,节点选择
+ - DOMAIN-SUFFIX,kik.com,节点选择
+ - DOMAIN-SUFFIX,kobo.com,节点选择
+ - DOMAIN-SUFFIX,kobobooks.com,节点选择
+ - DOMAIN-SUFFIX,licdn.com,节点选择
+ - DOMAIN-SUFFIX,live.net,节点选择
+ - DOMAIN-SUFFIX,livefilestore.com,节点选择
+ - DOMAIN-SUFFIX,llnwd.net,节点选择
+ - DOMAIN-SUFFIX,macrumors.com,节点选择
+ - DOMAIN-SUFFIX,medium.com,节点选择
+ - DOMAIN-SUFFIX,mega.nz,节点选择
+ - DOMAIN-SUFFIX,megaupload.com,节点选择
+ - DOMAIN-SUFFIX,messenger.com,节点选择
+ - DOMAIN-SUFFIX,netdna-cdn.com,节点选择
+ - DOMAIN-SUFFIX,nintendo.net,节点选择
+ - DOMAIN-SUFFIX,nsstatic.net,节点选择
+ - DOMAIN-SUFFIX,nytstyle.com,节点选择
+ - DOMAIN-SUFFIX,overcast.fm,节点选择
+ - DOMAIN-SUFFIX,openvpn.net,节点选择
+ - DOMAIN-SUFFIX,periscope.tv,节点选择
+ - DOMAIN-SUFFIX,pinimg.com,节点选择
+ - DOMAIN-SUFFIX,pinterest.com,节点选择
+ - DOMAIN-SUFFIX,potato.im,节点选择
+ - DOMAIN-SUFFIX,prfct.co,节点选择
+ - DOMAIN-SUFFIX,pscp.tv,节点选择
+ - DOMAIN-SUFFIX,quora.com,节点选择
+ - DOMAIN-SUFFIX,resilio.com,节点选择
+ - DOMAIN-SUFFIX,sfx.ms,节点选择
+ - DOMAIN-SUFFIX,shadowsocks.org,节点选择
+ - DOMAIN-SUFFIX,slack-edge.com,节点选择
+ - DOMAIN-SUFFIX,smartdnsproxy.com,节点选择
+ - DOMAIN-SUFFIX,sndcdn.com,节点选择
+ - DOMAIN-SUFFIX,soundcloud.com,节点选择
+ - DOMAIN-SUFFIX,startpage.com,节点选择
+ - DOMAIN-SUFFIX,staticflickr.com,节点选择
+ - DOMAIN-SUFFIX,symauth.com,节点选择
+ - DOMAIN-SUFFIX,symcb.com,节点选择
+ - DOMAIN-SUFFIX,symcd.com,节点选择
+ - DOMAIN-SUFFIX,textnow.com,节点选择
+ - DOMAIN-SUFFIX,textnow.me,节点选择
+ - DOMAIN-SUFFIX,thefacebook.com,节点选择
+ - DOMAIN-SUFFIX,thepiratebay.org,节点选择
+ - DOMAIN-SUFFIX,torproject.org,节点选择
+ - DOMAIN-SUFFIX,trustasiassl.com,节点选择
+ - DOMAIN-SUFFIX,tumblr.co,节点选择
+ - DOMAIN-SUFFIX,tumblr.com,节点选择
+ - DOMAIN-SUFFIX,tvb.com,节点选择
+ - DOMAIN-SUFFIX,txmblr.com,节点选择
+ - DOMAIN-SUFFIX,v2ex.com,节点选择
+ - DOMAIN-SUFFIX,vimeo.com,节点选择
+ - DOMAIN-SUFFIX,vine.co,节点选择
+ - DOMAIN-SUFFIX,vox-cdn.com,节点选择
+ - DOMAIN-SUFFIX,amazon.co.jp,节点选择
+ - DOMAIN-SUFFIX,amazon.com,节点选择
+ - DOMAIN-SUFFIX,amazonaws.com,节点选择
+ - IP-CIDR,13.32.0.0/15,节点选择,no-resolve
+ - IP-CIDR,13.35.0.0/17,节点选择,no-resolve
+ - IP-CIDR,18.184.0.0/15,节点选择,no-resolve
+ - IP-CIDR,18.194.0.0/15,节点选择,no-resolve
+ - IP-CIDR,18.208.0.0/13,节点选择,no-resolve
+ - IP-CIDR,18.232.0.0/14,节点选择,no-resolve
+ - IP-CIDR,52.58.0.0/15,节点选择,no-resolve
+ - IP-CIDR,52.74.0.0/16,节点选择,no-resolve
+ - IP-CIDR,52.77.0.0/16,节点选择,no-resolve
+ - IP-CIDR,52.84.0.0/15,节点选择,no-resolve
+ - IP-CIDR,52.200.0.0/13,节点选择,no-resolve
+ - IP-CIDR,54.93.0.0/16,节点选择,no-resolve
+ - IP-CIDR,54.156.0.0/14,节点选择,no-resolve
+ - IP-CIDR,54.226.0.0/15,节点选择,no-resolve
+ - IP-CIDR,54.230.156.0/22,节点选择,no-resolve
+ - DOMAIN-KEYWORD,uk-live,节点选择
+ - DOMAIN-SUFFIX,bbc.co,节点选择
+ - DOMAIN-SUFFIX,bbc.com,节点选择
+ - DOMAIN-SUFFIX,apache.org,节点选择
+ - DOMAIN-SUFFIX,docker.com,节点选择
+ - DOMAIN-SUFFIX,elastic.co,节点选择
+ - DOMAIN-SUFFIX,elastic.com,节点选择
+ - DOMAIN-SUFFIX,gcr.io,节点选择
+ - DOMAIN-SUFFIX,gitlab.com,节点选择
+ - DOMAIN-SUFFIX,gitlab.io,节点选择
+ - DOMAIN-SUFFIX,jitpack.io,节点选择
+ - DOMAIN-SUFFIX,maven.org,节点选择
+ - DOMAIN-SUFFIX,medium.com,节点选择
+ - DOMAIN-SUFFIX,mvnrepository.com,节点选择
+ - DOMAIN-SUFFIX,quay.io,节点选择
+ - DOMAIN-SUFFIX,reddit.com,节点选择
+ - DOMAIN-SUFFIX,redhat.com,节点选择
+ - DOMAIN-SUFFIX,sonatype.org,节点选择
+ - DOMAIN-SUFFIX,sourcegraph.com,节点选择
+ - DOMAIN-SUFFIX,spring.io,节点选择
+ - DOMAIN-SUFFIX,spring.net,节点选择
+ - DOMAIN-SUFFIX,stackoverflow.com,节点选择
+ - DOMAIN-SUFFIX,discord.co,节点选择
+ - DOMAIN-SUFFIX,discord.com,节点选择
+ - DOMAIN-SUFFIX,discord.gg,节点选择
+ - DOMAIN-SUFFIX,discord.media,节点选择
+ - DOMAIN-SUFFIX,discordapp.com,节点选择
+ - DOMAIN-SUFFIX,discordapp.net,节点选择
+ - DOMAIN-SUFFIX,facebook.com,节点选择
+ - DOMAIN-SUFFIX,fb.com,节点选择
+ - DOMAIN-SUFFIX,fb.me,节点选择
+ - DOMAIN-SUFFIX,fbcdn.com,节点选择
+ - DOMAIN-SUFFIX,fbcdn.net,节点选择
+ - IP-CIDR,31.13.24.0/21,节点选择,no-resolve
+ - IP-CIDR,31.13.64.0/18,节点选择,no-resolve
+ - IP-CIDR,45.64.40.0/22,节点选择,no-resolve
+ - IP-CIDR,66.220.144.0/20,节点选择,no-resolve
+ - IP-CIDR,69.63.176.0/20,节点选择,no-resolve
+ - IP-CIDR,69.171.224.0/19,节点选择,no-resolve
+ - IP-CIDR,74.119.76.0/22,节点选择,no-resolve
+ - IP-CIDR,103.4.96.0/22,节点选择,no-resolve
+ - IP-CIDR,129.134.0.0/17,节点选择,no-resolve
+ - IP-CIDR,157.240.0.0/17,节点选择,no-resolve
+ - IP-CIDR,173.252.64.0/18,节点选择,no-resolve
+ - IP-CIDR,179.60.192.0/22,节点选择,no-resolve
+ - IP-CIDR,185.60.216.0/22,节点选择,no-resolve
+ - IP-CIDR,204.15.20.0/22,节点选择,no-resolve
+ - DOMAIN-SUFFIX,github.com,节点选择
+ - DOMAIN-SUFFIX,github.io,节点选择
+ - DOMAIN-SUFFIX,githubapp.com,节点选择
+ - DOMAIN-SUFFIX,githubassets.com,节点选择
+ - DOMAIN-SUFFIX,githubusercontent.com,节点选择
+ - DOMAIN-SUFFIX,1e100.net,节点选择
+ - DOMAIN-SUFFIX,2mdn.net,节点选择
+ - DOMAIN-SUFFIX,app-measurement.net,节点选择
+ - DOMAIN-SUFFIX,g.co,节点选择
+ - DOMAIN-SUFFIX,ggpht.com,节点选择
+ - DOMAIN-SUFFIX,goo.gl,节点选择
+ - DOMAIN-SUFFIX,gstatic.cn,节点选择
+ - DOMAIN-SUFFIX,gstatic.com,节点选择
+ - DOMAIN-SUFFIX,gvt0.com,节点选择
+ - DOMAIN-SUFFIX,gvt1.com,节点选择
+ - DOMAIN-SUFFIX,gvt2.com,节点选择
+ - DOMAIN-SUFFIX,gvt3.com,节点选择
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
+ - DOMAIN-SUFFIX,youtu.be,节点选择
+ - DOMAIN-SUFFIX,youtube-nocookie.com,节点选择
+ - DOMAIN-SUFFIX,youtube.com,节点选择
+ - DOMAIN-SUFFIX,yt.be,节点选择
+ - DOMAIN-SUFFIX,ytimg.com,节点选择
+ - IP-CIDR,74.125.0.0/16,节点选择,no-resolve
+ - IP-CIDR,173.194.0.0/16,节点选择,no-resolve
+ - IP-CIDR,120.232.181.162/32,节点选择,no-resolve
+ - IP-CIDR,120.241.147.226/32,节点选择,no-resolve
+ - IP-CIDR,120.253.253.226/32,节点选择,no-resolve
+ - IP-CIDR,120.253.255.162/32,节点选择,no-resolve
+ - IP-CIDR,120.253.255.34/32,节点选择,no-resolve
+ - IP-CIDR,120.253.255.98/32,节点选择,no-resolve
+ - IP-CIDR,180.163.150.162/32,节点选择,no-resolve
+ - IP-CIDR,180.163.150.34/32,节点选择,no-resolve
+ - IP-CIDR,180.163.151.162/32,节点选择,no-resolve
+ - IP-CIDR,180.163.151.34/32,节点选择,no-resolve
+ - IP-CIDR,203.208.39.0/24,节点选择,no-resolve
+ - IP-CIDR,203.208.40.0/24,节点选择,no-resolve
+ - IP-CIDR,203.208.41.0/24,节点选择,no-resolve
+ - IP-CIDR,203.208.43.0/24,节点选择,no-resolve
+ - IP-CIDR,203.208.50.0/24,节点选择,no-resolve
+ - IP-CIDR,220.181.174.162/32,节点选择,no-resolve
+ - IP-CIDR,220.181.174.226/32,节点选择,no-resolve
+ - IP-CIDR,220.181.174.34/32,节点选择,no-resolve
+ - DOMAIN-SUFFIX,cdninstagram.com,节点选择
+ - DOMAIN-SUFFIX,instagram.com,节点选择
+ - DOMAIN-SUFFIX,instagr.am,节点选择
+ - DOMAIN-SUFFIX,kakao.com,节点选择
+ - DOMAIN-SUFFIX,kakao.co.kr,节点选择
+ - DOMAIN-SUFFIX,kakaocdn.net,节点选择
+ - IP-CIDR,1.201.0.0/24,节点选择,no-resolve
+ - IP-CIDR,27.0.236.0/22,节点选择,no-resolve
+ - IP-CIDR,103.27.148.0/22,节点选择,no-resolve
+ - IP-CIDR,103.246.56.0/22,节点选择,no-resolve
+ - IP-CIDR,110.76.140.0/22,节点选择,no-resolve
+ - IP-CIDR,113.61.104.0/22,节点选择,no-resolve
+ - DOMAIN-SUFFIX,lin.ee,节点选择
+ - DOMAIN-SUFFIX,line-apps.com,节点选择
+ - DOMAIN-SUFFIX,line-cdn.net,节点选择
+ - DOMAIN-SUFFIX,line-scdn.net,节点选择
+ - DOMAIN-SUFFIX,line.me,节点选择
+ - DOMAIN-SUFFIX,line.naver.jp,节点选择
+ - DOMAIN-SUFFIX,nhncorp.jp,节点选择
+ - IP-CIDR,103.2.28.0/24,节点选择,no-resolve
+ - IP-CIDR,103.2.30.0/23,节点选择,no-resolve
+ - IP-CIDR,119.235.224.0/24,节点选择,no-resolve
+ - IP-CIDR,119.235.232.0/24,节点选择,no-resolve
+ - IP-CIDR,119.235.235.0/24,节点选择,no-resolve
+ - IP-CIDR,119.235.236.0/23,节点选择,no-resolve
+ - IP-CIDR,147.92.128.0/17,节点选择,no-resolve
+ - IP-CIDR,203.104.128.0/19,节点选择,no-resolve
+ - DOMAIN-KEYWORD,1drv,节点选择
+ - DOMAIN-KEYWORD,onedrive,节点选择
+ - DOMAIN-KEYWORD,rockstar,节点选择
+ - DOMAIN-KEYWORD,skydrive,节点选择
+ - DOMAIN-SUFFIX,livefilestore.com,节点选择
+ - DOMAIN-SUFFIX,oneclient.sfx.ms,节点选择
+ - DOMAIN-SUFFIX,onedrive.com,节点选择
+ - DOMAIN-SUFFIX,onedrive.live.com,节点选择
+ - DOMAIN-SUFFIX,photos.live.com,节点选择
+ - DOMAIN-SUFFIX,skydrive.wns.windows.com,节点选择
+ - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,节点选择
+ - DOMAIN-SUFFIX,storage.live.com,节点选择
+ - DOMAIN-SUFFIX,storage.msn.com,节点选择
+ - DOMAIN-KEYWORD,porn,节点选择
+ - DOMAIN-SUFFIX,8teenxxx.com,节点选择
+ - DOMAIN-SUFFIX,ahcdn.com,节点选择
+ - DOMAIN-SUFFIX,bcvcdn.com,节点选择
+ - DOMAIN-SUFFIX,bongacams.com,节点选择
+ - DOMAIN-SUFFIX,chaturbate.com,节点选择
+ - DOMAIN-SUFFIX,dditscdn.com,节点选择
+ - DOMAIN-SUFFIX,livejasmin.com,节点选择
+ - DOMAIN-SUFFIX,phncdn.com,节点选择
+ - DOMAIN-SUFFIX,phprcdn.com,节点选择
+ - DOMAIN-SUFFIX,pornhub.com,节点选择
+ - DOMAIN-SUFFIX,pornhubpremium.com,节点选择
+ - DOMAIN-SUFFIX,rdtcdn.com,节点选择
+ - DOMAIN-SUFFIX,redtube.com,节点选择
+ - DOMAIN-SUFFIX,sb-cd.com,节点选择
+ - DOMAIN-SUFFIX,spankbang.com,节点选择
+ - DOMAIN-SUFFIX,t66y.com,节点选择
+ - DOMAIN-SUFFIX,xhamster.com,节点选择
+ - DOMAIN-SUFFIX,xnxx-cdn.com,节点选择
+ - DOMAIN-SUFFIX,xnxx.com,节点选择
+ - DOMAIN-SUFFIX,xvideos-cdn.com,节点选择
+ - DOMAIN-SUFFIX,xvideos.com,节点选择
+ - DOMAIN-SUFFIX,ypncdn.com,节点选择
+ - DOMAIN-SUFFIX,pixiv.net,节点选择
+ - DOMAIN-SUFFIX,pximg.net,节点选择
+ - DOMAIN-SUFFIX,amplitude.com,节点选择
+ - DOMAIN-SUFFIX,firebaseio.com,节点选择
+ - DOMAIN-SUFFIX,hockeyapp.net,节点选择
+ - DOMAIN-SUFFIX,readdle.com,节点选择
+ - DOMAIN-SUFFIX,smartmailcloud.com,节点选择
+ - DOMAIN-SUFFIX,fanatical.com,节点选择
+ - DOMAIN-SUFFIX,humblebundle.com,节点选择
+ - DOMAIN-SUFFIX,steamcommunity.com,节点选择
+ - DOMAIN-SUFFIX,tap.io,节点选择
+ - DOMAIN-SUFFIX,taptap.tw,节点选择
+ - DOMAIN-SUFFIX,twitch.tv,节点选择
+ - DOMAIN-SUFFIX,ttvnw.net,节点选择
+ - DOMAIN-SUFFIX,jtvnw.net,节点选择
+ - DOMAIN-KEYWORD,ttvnw,节点选择
+ - DOMAIN-SUFFIX,t.co,节点选择
+ - DOMAIN-SUFFIX,twimg.co,节点选择
+ - DOMAIN-SUFFIX,twimg.com,节点选择
+ - DOMAIN-SUFFIX,twimg.org,节点选择
+ - DOMAIN-SUFFIX,t.me,节点选择
+ - DOMAIN-SUFFIX,tdesktop.com,节点选择
+ - DOMAIN-SUFFIX,telegra.ph,节点选择
+ - DOMAIN-SUFFIX,telegram.me,节点选择
+ - DOMAIN-SUFFIX,telegram.org,节点选择
+ - DOMAIN-SUFFIX,telesco.pe,节点选择
+ - IP-CIDR,91.108.0.0/16,节点选择,no-resolve
+ - IP-CIDR,109.239.140.0/24,节点选择,no-resolve
+ - IP-CIDR,149.154.160.0/20,节点选择,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,节点选择
+ - IP-CIDR,18.194.0.0/15,节点选择,no-resolve
+ - IP-CIDR,34.224.0.0/12,节点选择,no-resolve
+ - IP-CIDR,54.242.0.0/15,节点选择,no-resolve
+ - IP-CIDR,50.22.198.204/30,节点选择,no-resolve
+ - IP-CIDR,208.43.122.128/27,节点选择,no-resolve
+ - IP-CIDR,108.168.174.0/16,节点选择,no-resolve
+ - IP-CIDR,173.192.231.32/27,节点选择,no-resolve
+ - IP-CIDR,158.85.5.192/27,节点选择,no-resolve
+ - IP-CIDR,174.37.243.0/16,节点选择,no-resolve
+ - IP-CIDR,158.85.46.128/27,节点选择,no-resolve
+ - IP-CIDR,173.192.222.160/27,节点选择,no-resolve
+ - IP-CIDR,184.173.128.0/17,节点选择,no-resolve
+ - IP-CIDR,158.85.224.160/27,节点选择,no-resolve
+ - IP-CIDR,75.126.150.0/16,节点选择,no-resolve
+ - IP-CIDR,69.171.235.0/16,节点选择,no-resolve
+ - DOMAIN-SUFFIX,mediawiki.org,节点选择
+ - DOMAIN-SUFFIX,wikibooks.org,节点选择
+ - DOMAIN-SUFFIX,wikidata.org,节点选择
+ - DOMAIN-SUFFIX,wikileaks.org,节点选择
+ - DOMAIN-SUFFIX,wikimedia.org,节点选择
+ - DOMAIN-SUFFIX,wikinews.org,节点选择
+ - DOMAIN-SUFFIX,wikipedia.org,节点选择
+ - DOMAIN-SUFFIX,wikiquote.org,节点选择
+ - DOMAIN-SUFFIX,wikisource.org,节点选择
+ - DOMAIN-SUFFIX,wikiversity.org,节点选择
+ - DOMAIN-SUFFIX,wikivoyage.org,节点选择
+ - DOMAIN-SUFFIX,wiktionary.org,节点选择
+ - DOMAIN-SUFFIX,neulion.com,节点选择
+ - DOMAIN-SUFFIX,icntv.xyz,节点选择
+ - DOMAIN-SUFFIX,flzbcdn.xyz,节点选择
+ - DOMAIN-SUFFIX,ocnttv.com,节点选择
+
